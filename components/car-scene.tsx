@@ -4,7 +4,6 @@ import { Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Canvas,useFrame, useThree } from '@react-three/fiber'
 import { OrbitControls,useGLTF, Float,Lightformer,AccumulativeShadows,RandomizedLight,Environment, PerspectiveCamera, Decal, useTexture } from '@react-three/drei'
 import * as THREE from 'three'
-import { Tracklist } from './components/tracklist'
 import { TopMenu } from "./top-menu"
 import { RSVPForm } from './rsvp-form'
 import { ColorSelector } from './color-selector'
