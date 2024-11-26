@@ -15,7 +15,6 @@ function ResponsiveCamera({ isMobile }: { isMobile: boolean }) {
   useEffect(() => {
     if (isMobile) {
       camera.position.set(4, 1.5,8)
-      camera.fov = 55
       scene.position.x = 0.25
       scene.position.z = 0
     } else {
