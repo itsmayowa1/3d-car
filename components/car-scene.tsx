@@ -74,7 +74,7 @@ function CarModel({ color = '#000000' }: { color: string }) {
 
   useEffect(() => {
     if (materials['Body']) {
-      materials['Body'].color = new THREE.Color(color)
+      // materials['Body'].color = new THREE.Color(color)
     }
   }, [color, materials])
 
@@ -84,8 +84,8 @@ function CarModel({ color = '#000000' }: { color: string }) {
         if (child.material instanceof THREE.MeshStandardMaterial) {
           child.material.metalness = 0.9
           child.material.roughness = 0.1
-          child.material.clearcoat = 1.0
-          child.material.clearcoatRoughness = 0.1
+          // child.material.clearcoat = 1.0
+          // child.material.clearcoatRoughness = 0.1
           child.receiveShadow = true
           child.castShadow = true
         }
