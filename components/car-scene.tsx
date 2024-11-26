@@ -28,6 +28,8 @@ function ResponsiveCamera({ isMobile }: { isMobile: boolean }) {
       camera.position.set(4, 1.5, 8);
       scene.position.x = 0.25;
       scene.position.z = 0;
+    
+    
     } else {
       camera.position.set(0.6, 0.2, 0.6);
     }
