@@ -28,7 +28,7 @@ function ResponsiveCamera({ isMobile }: { isMobile: boolean }) {
 
 function Lightformers({ positions = [2, 0, 2, 0, 2, 0, 2, 0] }) {
   const group = useRef()
-  useFrame((state, delta) => (group.current.position.z += delta * 1.5) > 20 && (group.current.position.z = -60))
+  // useFrame((state, delta) => (group.current.position.z += delta * 1.5) > 20 && (group.current.position.z = -60))
   return (
     <>
       {/* Ceiling */}
